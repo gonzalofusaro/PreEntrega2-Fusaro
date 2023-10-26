@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+
+}
+
+header {
+
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+    
+   
+}
+
+.logo {
+    width: 100px;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10 px;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black
+
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+}
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1 px solid black;
+    text-align: center;
+
+}
+
+.contenedorEventos {
+    margin: 20px 0;
+    border: 4px solid white;
+    border-radius: 10px;
+
+}
+
+.imgEventos {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contenedorEventos p {
+    background-color: #0b5da1;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0b5da1
+
+}
+
+input [type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0b5da1;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.btnform {
+    background-color: #0b5da1;
+    color: whitesmoke;
+    border: none;
+    padding: 10 px 20px;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    width: bold;
+
+}
+
+/*Catalogo de compras de Gin*/
+
+.contenedorCompras {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.compra1 {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    
+}
+
+.compraTitulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.compraDescripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.compraPrecio {
+    color: #0b5da1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0b5da1;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Para hacerlo responsive*/ 
+.contenedorCompras {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.compra1 {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .compra1 {
+        flex: 100%;
+        max-width: 75%;
+    }
+    
+    .menu { 
+        display:grid
+    }
+
+    
+}
+
+/* Para celu */
+@media screen and (max-width: 480px) {
+    .contenedorCompras {
+        flex-direction: column;
+    }
+
+    .compra1 {
+        flex: 100%;
+        
+    }
+    .menu { 
+        display:grid
+    }
+    
+}
