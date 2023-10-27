@@ -121,11 +121,6 @@ textarea {
 
 /*Catalogo de compras de Gin*/
 
-.contenedorCompras {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-}
 
 .compra {
     display: flex;
@@ -177,46 +172,7 @@ button {
     border-radius: 5px;
     border: none;
     cursor: pointer;
-}
-
-/* Para hacerlo responsive*/ 
-.contenedorCompras {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.compra1 {
-    flex: 1;
-    margin: 5px;
-    padding: 10px;
-}
-
-/* Tablet */
-@media screen and (max-width: 768px) {
-    .compra1 {
-        flex: 100%;
-        max-width: 75%;
-    }
-    
-    .menu { 
-        display:grid
-    }
-
     
 }
 
-/* Para celu */
-@media screen and (max-width: 480px) {
-    .contenedorCompras {
-        flex-direction: column;
-    }
 
-    .compra1 {
-        flex: 100%;
-        
-    }
-    .menu { 
-        display:grid
-    }
-    
-}
