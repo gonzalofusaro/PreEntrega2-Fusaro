@@ -40,7 +40,7 @@ a {
 
 main {
     margin: 20px;
-    padding: 20px;
+    padding: 100px;
 
 }
 
@@ -175,6 +175,7 @@ button {
     
 }
 
+/*Modificando el Formulario de contacto*/
 
 body{
     background-color: #dee9ff;
@@ -272,4 +273,16 @@ body{
         font-size: 30px;
         line-height: 70px;
     }
+}
+
+/*Probando nuevo index*/
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
