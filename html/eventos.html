@@ -2,75 +2,179 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nordicos</title>
-    <link rel="stylesheet" href="../css/estilo.css">
-    <!-- CSS BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nordicos</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+  <!-- CSS BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
-                <a href="">
-                    <img class="logo" src="../img/logo1.png" alt="logo Nordicos">
-                </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="compras.html">Compras</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="eventos.html">Eventos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                  </li>
-                </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a href="">
+          <img class="logo" src="../img/logo1.png" alt="logo Nordicos">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compras.html">Compras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="eventos.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <article class="col-md-12">
+
+      <!-- Probando tarjetas para eventos -->
+      <header>
+        <h2> Eventos que realizamos</h2>
+      </header>
+      <!-- CARDS -->
+      <h2>Ferias, Catas y Talleres</h2>
+      <div class="cards-1 section-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-image">
+                  <a href="#"> <img class="img" src="../img/Evento 1.png">
+                  </a>
+                  <div class="ripple-cont"></div>
+                </div>
+                <div class="table">
+                  <h6 class="category text-info">Evento Draft</h6>
+                  <p class="card-description"> Este primer evento en el barrio de Saavedra contó con 6 productores y mas
+                    de 115 participantes. Una feria a puro gin </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="table table-info">
+                  <h5 class="category-social">
+                    <i class="fa fa-twitter"></i> Testimonios
+                  </h5>
+                  <h4 class="card-caption">
+                    <a href="#">"Tuve la posibilidad de asistir al evento DrinkGin hecho por los chicos de Nórdicos...
+                      la verdad es que nunca se vio algo asi en el barrio, excelente todo."</a>
+                  </h4>
+                  <div class="ftr">
+                    <div class="author">
+                      <a href="#"> <img src="http://adamthemes.com/demo/code/cards/images/avatar3.png" alt=""
+                          class="avatar img-raised"> <span>Juan Fernandez</span> </a>
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </div>
-          </nav>
-    </header>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="table">
 
-    <main>
-        <h1> Nordicos</h1>
-        <h2>Conocé nuestros Eventos</h2>
-        <div class="contenedorEventos">
-            <img class="imgEventos" src="../img/Evento 1.png" alt="Foto 1ed">
-            <p>DrinkGin 1ed</p>
+
+                  </h6>
+
+                  <div class="ftr">
+                    <div class="author">
+
+                      <div class="ripple-cont">
+                        <div class="ripple ripple-on ripple-out"
+                          style="left: 574px; top: 364px; background-color: rgb(60, 72, 88); transform: scale(11.875);">
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+                    <div class="stats"> <i class="fa fa-heart"></i> #cataytaller &nbsp; </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-blog">
+                <div class="card-image">
+                  <a href="#"> <img class="img" src="../img/Evento 3.png"> </a>
+
+                </div>
+                <div class="table">
+                  <h6 class="category text-success"><i class="fa fa-university"></i> Cata en Devoto</h6>
+                  <h4 class="card-caption">
+                    <a href="#"> Cata de 4 marcas sumado a un taller de elaboración de la mano de expertos
+                      sommeliers</a>
+                  </h4>
+                  <p class="card-description"> Evento único realizado divido en dos sectores: Taller de tragos y Cata
+                    instructiva.</p>
+                  <div class="ftr">
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-image">
+                  <a href="#"> <img class="img" src="../img/Evento 3.jpg"> </a>
+                  <div class="ripple-cont"></div>
+                </div>
+                <div class="table">
+                  <h6 class="category text-warning">
+                    <i class="fa fa-soundcloud"></i> Degustaciones
+                  </h6>
+                  <h4 class="card-caption">
+                    <a href="#">Degustaciones de diferentes marcas en la localidad de Vicente Lopez</a>
+                  </h4>
+
+                </div>
+              </div>
+              <div class="card">
+                <div class="table table-danger">
+                  <h5 class="category-social">
+                    <i class="fa fa-newspaper-o"></i> Testimonio
+                  </h5>
+                  <h4 class="card-caption">
+                    <a href="#">"Hacen cosas únicas"</a>
+                  </h4>
+                  <p class="card-description"> "Sigo a los chicos de Nórdicos desde el primer evento, la rompen."</p>
+                  <div class="ftr text-center"> <a href="#" class="btn btn-white btn-round">Ver nota</a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="contenedorEventos">
-            <img class="imgEventos" src="../img/Evento2.jpg" alt="Foto 2ed">
-            <p>DrinkGin 2ed</p>
-        </div>
+    </article>
 
-        <div class="contenedorEventos">
-            <img class="imgEventos" src="../img/Evento 3.png" alt="Foto Cata y Taller">
-            <p>Cata & Taller</p>
-        </div>
+  </main>
 
-    </main>
+  <footer>
 
-    <footer>
-
-        <h3> Nordicos - Todos los derechos reservados</h3>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-crossorigin="anonymous"></script>
+    <h3> Nordicos - Todos los derechos reservados</h3>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
