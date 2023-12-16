@@ -1,0 +1,9 @@
+h2 {
+    color: white
+    font-weigth bold;
+
+}
+
+h3 {
+    @extend h2
+}
